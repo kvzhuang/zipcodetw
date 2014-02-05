@@ -13,6 +13,7 @@ if (trim($address) != "")
 <meta charset="utf-8">
 <title>Taiwan Address Zipcode 查詢器</title>
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<script src="//code.jquery.com/jquery-1.9.1.js"></script>
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <style>
 body {
@@ -31,7 +32,7 @@ body {
                  <label for="access_token" class="control-label">地址 *</label>
                  <div class="controls">
                      <input type="text" id="a" name="a" placeholder="Address">
-                     <span class="help-block">請輸入地址</span>
+                     <span class="help-block">請輸入地址, 如 台北市信義區市府路45號 , 宜蘭縣羅東鎮.</span>
                 </div>
             </div>
             <div class="control-group">
@@ -40,11 +41,10 @@ body {
                  </div>
             </div>
         </form>
-        <span>Inspired by Mosky Liu , <a href="https://github.com/moskytw/zipcodetw">zipcodetw</a>.</span>
+        <div>Inspired by Mosky Liu , <a href="https://github.com/moskytw/zipcodetw">zipcodetw</a>.</div>
+
     </div>
 <script>
-$(function() {
-  });
 </script>
 </body>
 </html>
